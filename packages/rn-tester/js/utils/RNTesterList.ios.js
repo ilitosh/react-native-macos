@@ -14,6 +14,11 @@ import type {RNTesterModuleInfo} from '../types/RNTesterTypes';
 
 const Components: Array<RNTesterModuleInfo> = [
   {
+    key: 'LostClicksExample',    
+    module: require('../examples/TextInput/LostClicksExample.macos'),
+    category: 'Basic',
+  },
+  {
     key: 'ActivityIndicatorExample',
     category: 'UI',
     module: require('../examples/ActivityIndicator/ActivityIndicatorExample'),
